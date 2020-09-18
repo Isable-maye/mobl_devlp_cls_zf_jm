@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "mobl_devlp_cls_zf_jm"
