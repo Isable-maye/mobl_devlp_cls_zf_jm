@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+//week2 温度转换+上传Github
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     //private static String TAG = "aaaa";
@@ -35,7 +36,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //TextView tv3 = findViewById(R.id.textView3);
 
-///
     }
 
     //监听
