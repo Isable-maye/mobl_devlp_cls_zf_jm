@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AFragmentActivity72">
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="com.swufe.mobl_devlp_cls_zf_jm.AHomeFragment72"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        tools:ignore="Instantiatable" />
+
+    <fragment
+        android:id="@+id/fragment_func"
+        android:name="com.swufe.mobl_devlp_cls_zf_jm.AFuncFragment72"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        tools:ignore="Instantiatable" />
+
+    <fragment
+        android:id="@+id/fragment_setting"
+        android:name="com.swufe.mobl_devlp_cls_zf_jm.ASettingFragment72"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        tools:ignore="Instantiatable" />
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioHome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioFunc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            />
+
+        <RadioButton
+            android:id="@+id/radioSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </RadioGroup>
+
+</LinearLayout>
