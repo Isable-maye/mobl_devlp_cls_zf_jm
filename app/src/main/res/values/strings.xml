@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">mobl_devlp_cls_zf_jm</string>
+    <string name="inp_hint2">Input your name</string>
+    <string name="inp_hint">Input RMB</string>
+    <string name="btn_dollar_label">Dollar</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_won_label">Won</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="btn_open_label">open</string>
+    <string name="menu_set_label">menu_set_label</string>
+
 </resources>
